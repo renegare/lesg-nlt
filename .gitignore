@@ -2,3 +2,4 @@
 vendor/
 bower/
 .sass-cache/
+composer.lock

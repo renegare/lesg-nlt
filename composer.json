@@ -1,0 +1,43 @@
+{
+    "name": "renegare/lesg-nlt",
+    "license": "MIT",
+    "keywords": ["log", "visualisation", "renegare", "elasticsearch"],
+    "authors": [{"name": "Mudi Ugbowanko", "email": "mudi@renegare.com"}],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+
+    "require": {
+        "php": ">=5.4.0",
+        "silex/silex": "v1.2.0",
+        "twig/twig": "v1.15.1",
+        "symfony/twig-bridge": "v2.5.0",
+        "monolog/monolog": "1.10.0",
+        "renegare/skip": "dev-development",
+        "renegare/skip-model": "dev-development",
+        "symfony/security": "v2.5.0",
+        "kilte/silex-pagination": "1.0.1",
+        "renegare/aiv": "dev-master",
+        "swiftmailer/swiftmailer": "v5.0.3",
+        "aptoma/twig-markdown": "0.2.1",
+        "michelf/php-markdown": "1.4.1"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.34",
+        "symfony/process": "v2.5.0",
+        "symfony/browser-kit": "v2.5.0",
+        "symfony/css-selector": "v2.5.0",
+        "behat/behat": "v2.5.2",
+        "vipsoft/context-initializer-extension": "1.1.2",
+        "behat/mink": "v1.5.0",
+        "behat/mink-selenium2-driver": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "fabpot/goutte": "v1.0.2",
+        "antecedent/patchwork": "1.2.7",
+        "silex/web-profiler": "~1.0"
+    }
+}
